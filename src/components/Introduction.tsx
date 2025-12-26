@@ -11,8 +11,13 @@ export const Introduction = () => {
           </p>
         </div>
 
+        <div className="mb-10 sm:mb-12 rounded-2xl bg-gradient-to-br from-blue-50 to-green-50 p-6 sm:p-8 md:p-10">
+          <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
+            <strong>Taxi Quảng Ngãi 24/7</strong> - Dịch vụ taxi chuyên nghiệp tại Quảng Ngãi với nhiều năm kinh nghiệm phục vụ khách hàng. Chúng tôi chuyên cung cấp dịch vụ đưa đón nội thành Quảng Ngãi, các huyện trong tỉnh như Ba Tơ, Bình Sơn, Đức Phổ, Lý Sơn, Minh Long, Mộ Đức, Nghĩa Hành, Sơn Hà, Sơn Tịnh, Sơn Tây, Tây Trà, Trà Bồng, Tư Nghĩa, và các tuyến đường liên tỉnh từ Quảng Ngãi đi Đà Nẵng (khoảng 130km), Quảng Nam (khoảng 100km), Bình Định (khoảng 150km), Phú Yên (khoảng 200km), Kon Tum (khoảng 180km), Gia Lai (khoảng 220km). Với đội ngũ tài xế giàu kinh nghiệm, xe mới, sạch sẽ, chúng tôi cam kết mang đến cho quý khách hàng những chuyến đi an toàn, thoải mái và đúng giờ. Dịch vụ của chúng tôi hoạt động 24/7, sẵn sàng phục vụ mọi lúc, mọi nơi. Chỉ cần gọi hotline <strong><a href="tel:0905418433" className="text-blue-600 hover:text-blue-800 underline">0905418433</a></strong> hoặc chat Zalo, chúng tôi sẽ có mặt nhanh chóng để đưa đón quý khách đến bất kỳ đâu trong và ngoài tỉnh Quảng Ngãi.
+          </p>
+        </div>
+
         <div className="grid gap-8 sm:gap-10 md:gap-12 md:grid-cols-2">
-          {/* Left Content */}
           <div className="space-y-4 sm:space-y-6">
             <div className="rounded-2xl bg-gradient-to-br from-blue-50 to-green-50 p-6 sm:p-8">
               <h3 className="mb-3 sm:mb-4 text-xl sm:text-2xl font-bold text-gray-900">
@@ -62,7 +67,6 @@ export const Introduction = () => {
             </div>
           </div>
 
-          {/* Right Content */}
           <div className="space-y-4 sm:space-y-6">
             <div className="rounded-2xl bg-gradient-to-br from-green-50 to-blue-50 p-6 sm:p-8">
               <h3 className="mb-3 sm:mb-4 text-xl sm:text-2xl font-bold text-gray-900">

@@ -9,7 +9,6 @@ export const Footer = () => {
     <footer id="lien-he" className="bg-gray-900 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-10 md:py-12">
         <div className="grid gap-6 sm:gap-8 md:grid-cols-3">
-          {/* About */}
           <div>
             <h3 className="mb-3 sm:mb-4 text-lg sm:text-xl font-bold">Taxi Xanh SM - Mai Khoa</h3>
             <p className="mb-3 sm:mb-4 text-sm sm:text-base text-gray-400">
@@ -31,7 +30,6 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h3 className="mb-3 sm:mb-4 text-lg sm:text-xl font-bold">Thông Tin Liên Hệ</h3>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-400">
@@ -112,7 +110,6 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="mb-3 sm:mb-4 text-lg sm:text-xl font-bold">Liên Kết Nhanh</h3>
             <ul className="space-y-1.5 sm:space-y-2 text-sm sm:text-base text-gray-400">
@@ -155,7 +152,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Contact Buttons */}
         <div className="mt-6 sm:mt-8 border-t border-gray-800 pt-6 sm:pt-8">
           <div className="mb-3 sm:mb-4 text-center">
             <p className="mb-3 sm:mb-4 text-base sm:text-lg font-semibold">
@@ -165,7 +161,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="mt-6 sm:mt-8 border-t border-gray-800 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
           <p>
             © {new Date().getFullYear()} Taxi Xanh SM - Mai Khoa. Tất cả quyền được bảo lưu.

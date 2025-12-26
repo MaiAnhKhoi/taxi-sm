@@ -26,7 +26,6 @@ export const Pricing = () => {
         </div>
 
         <div className="grid gap-6 sm:gap-8 md:grid-cols-2">
-          {/* Nội Thành */}
           <div className="rounded-2xl bg-white p-6 sm:p-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
             <div className="mb-4 sm:mb-6 flex items-center gap-3">
               <div className="rounded-full bg-blue-100 p-2 sm:p-3">
@@ -70,7 +69,6 @@ export const Pricing = () => {
             </ul>
           </div>
 
-          {/* Ngoại Thành */}
           <div className="rounded-2xl bg-white p-6 sm:p-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
             <div className="mb-4 sm:mb-6 flex items-center gap-3">
               <div className="rounded-full bg-green-100 p-2 sm:p-3">

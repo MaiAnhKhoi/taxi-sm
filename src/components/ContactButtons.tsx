@@ -3,13 +3,8 @@ export const ContactButtons = () => {
   const zaloLink = `https://zalo.me/${phoneNumber}`;
   const facebookLink = "https://www.facebook.com/khoa.mai.73345";
 
-  // const handlePhoneClick = () => {
-  //   window.location.href = `tel:${phoneNumber}`;
-  // };
-
   return (
     <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-      {/* Phone Button */}
       <a
         href={`tel:${phoneNumber}`}
         className="group flex items-center gap-2 sm:gap-3 rounded-full bg-gradient-to-r from-green-500 to-green-600 px-4 py-2.5 sm:px-6 sm:py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl text-sm sm:text-base"
@@ -33,7 +28,6 @@ export const ContactButtons = () => {
         </span>
       </a>
 
-      {/* Zalo Button */}
       <a
         href={zaloLink}
         target="_blank"
@@ -50,7 +44,6 @@ export const ContactButtons = () => {
         <span className="font-semibold whitespace-nowrap">Chat Zalo</span>
       </a>
 
-      {/* Facebook Button */}
       <a
         href={facebookLink}
         target="_blank"
