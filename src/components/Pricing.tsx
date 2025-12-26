@@ -7,9 +7,8 @@ export const Pricing = () => {
       { km: "Theo giờ", price: "200.000 - 250.000 VNĐ/giờ", description: "Thuê xe theo giờ" },
     ],
     ngoaiThanh: [
-      { km: "0 - 20 km", price: "18.000 - 22.000 VNĐ/km", description: "Quãng đường ngắn" },
-      { km: "20 - 50 km", price: "15.000 - 18.000 VNĐ/km", description: "Quãng đường trung bình" },
-      { km: "Trên 50 km", price: "12.000 - 15.000 VNĐ/km", description: "Quãng đường dài" },
+      { km: "20 - 50 km", price: "12.000 - 15.000 VNĐ/km", description: "Quãng đường trung bình" },
+      { km: "Trên 50 km", price: "10.000 - 12.000 VNĐ/km", description: "Quãng đường dài" },
       { km: "Theo ngày", price: "1.500.000 - 2.000.000 VNĐ/ngày", description: "Thuê xe theo ngày" },
     ],
   };

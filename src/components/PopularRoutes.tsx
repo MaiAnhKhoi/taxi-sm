@@ -21,7 +21,7 @@ export const PopularRoutes = () => {
       to: "Bình Định",
       distance: "~150 km",
       time: "~3 giờ",
-      price: "Từ 1.800.000 VNĐ",
+      price: "Từ 1.500.000 VNĐ",
       popular: false
     },
     {
@@ -29,7 +29,7 @@ export const PopularRoutes = () => {
       to: "Phú Yên",
       distance: "~200 km",
       time: "~4 giờ",
-      price: "Từ 2.400.000 VNĐ",
+      price: "Từ 2.000.000 VNĐ",
       popular: false
     },
     {
